@@ -1,7 +1,26 @@
-src/main/java/Resources/
-target/
-Reports/
+# --- Archivos específicos del proyecto ---
+src/main/java/Resources/Wrapper.java
 .idea/
+target/
+
+# Ignora todo el contenido dentro de Reports
+Reports/*
+# Excepción: no ignorar la carpeta OnlyThis
+!Reports/OnlyThis/
+# Excepción: no ignorar los archivos/subcarpetas dentro de OnlyThis
+!Reports/OnlyThis/**
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
 # Package Files #
 *.jar
