@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07995eb4-be6a-4746-8305-49937b90e934" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Steps/ElementsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Steps/ElementsSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elementsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
           <option name="script" />
           <option name="thresholdsAsTests" value="true" />
           <option name="type" value="local" />
-          <option name="version" value="0" />
+          <option name="version" value="1" />
           <option name="workingDir" />
         </K6RunData>
       </option>
@@ -106,7 +105,7 @@
       <option name="script" />
       <option name="thresholdsAsTests" value="true" />
       <option name="type" value="local" />
-      <option name="version" value="0" />
+      <option name="version" value="1" />
       <option name="workingDir" />
       <method v="2" />
     </configuration>
@@ -132,6 +131,7 @@
       <workItem from="1781598965420" duration="3045000" />
       <workItem from="1782106480494" duration="858000" />
       <workItem from="1782399555364" duration="431000" />
+      <workItem from="1788198746410" duration="285000" />
     </task>
     <servers />
   </component>

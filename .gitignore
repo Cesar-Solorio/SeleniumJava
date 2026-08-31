@@ -1,6 +1,7 @@
 src/main/java/Resources/
 target/
 Reports/
+.idea/
 
 # Package Files #
 *.jar
