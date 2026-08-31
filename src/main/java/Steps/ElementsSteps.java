@@ -11,26 +11,26 @@ public class ElementsSteps extends Wrapper {
         super(driver);
     }
 
-    public static void validateButtonsOptions(){
+    public static void buttonsOptions(){
         MainPageFlows.selectOption("Elements","Buttons");
         ElementsFlows.selectButtons();
         ElementsFlows.validateButtonsActions();
         ElementsFlows.clearActions();
     }
 
-    public static void validateCheckBoxOptions(){
+    public static void checkBoxOptions(){
         MainPageFlows.selectOption("Elements","CheckBox");
         ElementsFlows.updateCheckBoxOptions();
         ElementsFlows.validateOptionAttributes();
     }
 
-    public static void validateRadioOptions(String name, int option){
+    public static void radioOptions(String name, int option){
         MainPageFlows.selectOption("Elements","RadioButton");
         ElementsFlows.validateRadioOptions(option);
         ElementsFlows.validateMessages(name, option);
     }
 
-    public static void validateTextBoxOptions() {
+    public static void textBoxOptions() {
 
         MainPageFlows.selectOption("Elements","TextBox");
         ElementsFlows.validateErrors();
